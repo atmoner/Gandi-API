@@ -41,3 +41,36 @@ foreach ($dom as $key => $value) {
 		  )";
     $db->query($query);
 } 
+/*
+--
+-- Table structure for table `dot`
+--
+
+CREATE TABLE `dot` (
+  `id` int(11) NOT NULL,
+  `id_r` int(50) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `phases` varchar(250) NOT NULL,
+  `visibility` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `dot`
+--
+ALTER TABLE `dot`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `dot`
+--
+ALTER TABLE `dot`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+*/
